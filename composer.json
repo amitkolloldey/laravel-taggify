@@ -1,0 +1,51 @@
+{
+    "name": "amitkolloldey/laravel-taggify",
+    "description": "Yet another eloquent tagging package for Laravel 7",
+    "keywords": [
+        "laravel tags",
+        "eloquent tag",
+        "tag package",
+        "laravel tag package",
+        "laravel 7 tags"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amit Kollol Dey",
+            "email": "amitkolloldey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/database": ">= 5.0|^6.0|^7.0",
+        "illuminate/support": ">= 5.0|^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "5.*|4.*",
+        "phpunit/phpunit": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmitKD\\LaravelTaggify\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AmitKD\\LaravelTaggify\\Tests\\": "tests/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmitKD\\LaravelTaggify\\Providers\\TaggifyServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
