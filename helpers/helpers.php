@@ -30,16 +30,18 @@ if (!function_exists('popular_tags_by_model')){
                 $class
             )
             ->select(
-                DB::raw('count(tag_id) as post_count'),
+                DB::raw('count(tag_id) as model_count'),
                 'tag_id',
-                'tags.name as tag_name'
+                'tags.name as tag_name',
+                'tags.description as tag_description',
+                'tags.slug as tag_slug'
             )
             ->groupBy(
                 'tag_id',
                 'tag_name'
             )
             ->orderBy(
-                'post_count',
+                'model_count',
                 'desc'
             )
             ->take(
