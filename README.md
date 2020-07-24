@@ -1,11 +1,7 @@
-Laravel Taggify
+Laravel Taggify - Eloquent Tagging Package
 ============
 
-[![Latest Stable Version](https://poser.pugx.org/rtconner/laravel-tagging/v/stable.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
-[![Total Downloads](https://poser.pugx.org/rtconner/laravel-tagging/downloads.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
-[![License](https://poser.pugx.org/rtconner/laravel-tagging/license.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
-[![Build Status](https://travis-ci.org/rtconner/laravel-tagging.svg?branch=laravel-7)](https://travis-ci.org/rtconner/laravel-tagging)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rtconner/laravel-tagging/badges/quality-score.png?b=laravel-7)](https://scrutinizer-ci.com/g/rtconner/laravel-tagging/?branch=laravel-7)
+[![Latest Stable Version](https://poser.pugx.org/amitkolloldey/laravel-taggify/v)](//packagist.org/packages/amitkolloldey/laravel-taggify) [![Total Downloads](https://poser.pugx.org/amitkolloldey/laravel-taggify/downloads)](//packagist.org/packages/amitkolloldey/laravel-taggify) [![Latest Unstable Version](https://poser.pugx.org/amitkolloldey/laravel-taggify/v/unstable)](//packagist.org/packages/amitkolloldey/laravel-taggify) [![License](https://poser.pugx.org/amitkolloldey/laravel-taggify/license)](//packagist.org/packages/amitkolloldey/laravel-taggify)
 
 
 This package will allow user to add Tagging system in the Laravel 7 application. 
