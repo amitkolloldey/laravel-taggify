@@ -19,7 +19,7 @@ trait TagScopes
     }
 
     /**
-     * Gets Most Less Used Tags By Tag Count
+     * Gets Less Used Tags By Tag Count
      *
      * @param $query
      * @param int $count
