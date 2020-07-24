@@ -20,7 +20,7 @@
         </whitelist>
     </filter>
     <php>
-        <env name="APP_KEY" value="AckfSECXIvnK5r28GVIWUAxmbBSjTsmF"/>
+        <env name="APP_KEY" value="8zMdwBT1HuzfZt7vMcSTK0vtuWX9Fkn6Th2xJsgfqPY"/>
         <env name="DB_CONNECTION" value="testing" />
         <env name="DB_DATABASE" value="testing" />
     </php>
